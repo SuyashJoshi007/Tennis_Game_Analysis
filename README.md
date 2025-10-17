@@ -4,9 +4,26 @@ This project leverages state-of-the-art computer vision techniques to perform in
 
 This repository is an excellent hands-on project for anyone looking to apply and polish their skills in object detection, model fine-tuning, and overall machine learning engineering.
 
-🎥 Project Demo
+Table of Contents
+
+Project Demo
+
+Key Features
+
+How It Works
+
+Getting Started
+
+Model Training
+
+Contributing
+
+License
+
 
 Here is a screenshot from a sample output video, where players are tracked, and metrics are displayed in real-time.
+
+🎥 ![Screenshot](output_videos/screenshot.jpeg) 
 
 A snapshot of the real-time player and ball tracking with on-screen analytics.
 
@@ -64,18 +81,11 @@ source venv/bin/activate
 
 
 Install the required dependencies:
-Create a requirements.txt file with the content below and run pip install -r requirements.txt.
-
-ultralytics
-torch
-torchvision
-pandas
-numpy
-opencv-python
-
 
 pip install -r requirements.txt
 
+
+(The requirements.txt file should contain ultralytics, torch, torchvision, pandas, numpy, and opencv-python).
 
 Download the pre-trained models:
 
@@ -101,6 +111,10 @@ The Jupyter notebooks used for training the custom models are available in the t
 Tennis Ball Detector (YOLOv5): training/tennis_ball_detector_training.ipynb
 
 Court Keypoint Extractor (PyTorch): training/tennis_court_keypoints_training.ipynb
+
+🤝 Contributing
+
+Contributions are welcome! If you have suggestions for improvements or want to add new features, please feel free to fork the repository, create a new branch, and submit a pull request.
 
 📄 License
 
